@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: #1F2937;
+}
+
+.heading {
+    color: white;
+}
+
+.sub-heading {
+    color: #D5D4D8;
+}
+
+.generate-password {
+    background: #10B981;
+    color: white;
+}
+
+.generate-password:hover {
+    cursor: pointer;
+}
+
+hr {
+    border-color: #2F3E53;
+    margin: 2rem 0;
+}
+
+.rectangle {
+    background: #273549;
+    padding: 0.52rem;
+    margin-right: 20px;
+}
+
+.generate-password {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    
+}
+
+.btn-wrapper {
+    display: flex;
+}
+
+.rectangle {
+    border: none;
+    color: #55F991;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+    padding: 0.8rem 2rem;
+}
+
+.container {
+    padding: 3rem 3rem;
+}
+
+button:focus {
+    outline: none;
+}
+
+.extra {
+    color: #4ADF86; 
+    display: block;
+}
