@@ -4,6 +4,8 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 const firstPassword = document.getElementById("first-password");
 const secondPassword = document.getElementById("second-password");
 
+const generatePasswordButtonEl = document.getElementById("generate-password-button")
+
 function generatePassword() {
     let password = "";
     
@@ -13,6 +15,10 @@ function generatePassword() {
     console.log(password);
     return password;
 }
+
+generatePasswordButtonEl.addEventListener("click", function() {
+    generatePasswords();
+})
 
 function generatePasswords() {
     firstPassword.innerText = generatePassword();
